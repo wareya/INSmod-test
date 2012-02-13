@@ -4,6 +4,7 @@
   <resource name="QRocket" type="RESOURCE"/>
   <resource name="Shot" type="RESOURCE"/>
   <resource name="StabMask" type="RESOURCE"/>
+  <resource name="KickMask" type="RESOURCE"/>
   <resource name="StabAnim" type="RESOURCE"/>
   <resource name="Bubble" type="RESOURCE"/>
   <resource name="Pop" type="RESOURCE"/>

@@ -24,6 +24,8 @@
             return SniperBlue;
         case (TEAM_BLUE*16 + CLASS_QUOTE):
             return QuoteBlue;
+        case (TEAM_BLUE*16 + CLASS_REISEN):
+            return ReisenBlue;
             
         case (TEAM_RED*16 + CLASS_SCOUT):
             return ScoutRed;
@@ -45,6 +47,8 @@
             return SniperRed;
         case (TEAM_RED*16 + CLASS_QUOTE):
             return QuoteRed;
+        case (TEAM_RED*16 + CLASS_REISEN):
+            return ReisenRed;
         default:
             return -1
     }

@@ -6,6 +6,7 @@
   <resource name="Pyro" type="RESOURCE"/>
   <resource name="Scout" type="RESOURCE"/>
   <resource name="Quote" type="RESOURCE"/>
+  <resource name="Reisen" type="RESOURCE"/>
   <resource name="Sniper" type="RESOURCE"/>
   <resource name="Spy" type="RESOURCE"/>
   <resource name="Engineer" type="RESOURCE"/>

@@ -53,7 +53,7 @@ if(!taunting and !omnomnomnom)
         image_speed=tauntspeed;
     } 
     
-    if(pressedKeys &amp; $80)
+    if(pressedKeys &amp; $80 and jumpStrength &gt; 0)
     {
         if(!place_free(x,y+1) and place_free(x,y))
         {

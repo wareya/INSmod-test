@@ -14,13 +14,19 @@
       <appliesTo>.self</appliesTo>
       <arguments>
         <argument kind="STRING">{
-    vspeed+=0.15;
+    vspeed += 0.15;
     if(global.particles != PARTICLES_OFF) {
         //We don't want it to be almost invisible if it's still "active", so
         //we have it as if 0.3 is its lower limit
         image_alpha = (alarm[0]/lifetime)/2+0.5;
     }
     image_angle=direction;
+    if(variable_local_exists("falloff"))
+        if(falloff)
+            hitDamage = baseDamage *
+             min(max(
+              1-(point_distance(x, y, owner.x, owner.y)/600)
+              , 1.25), 0.25);//fuck yeah lisp style indentation???
 }
 </argument>
       </arguments>

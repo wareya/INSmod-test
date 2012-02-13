@@ -10,4 +10,5 @@
   <resource name="SoldierBlue" type="RESOURCE"/>
   <resource name="PyroBlue" type="RESOURCE"/>
   <resource name="ScoutBlue" type="RESOURCE"/>
+  <resource name="ReisenBlue" type="RESOURCE"/>
 </resources>

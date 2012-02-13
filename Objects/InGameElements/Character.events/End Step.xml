@@ -89,6 +89,7 @@ if (omnomnomnom)
 
 //for things polling whether the character is on a medcabinet
 onCabinet = place_meeting(x, y, HealingCabinet);
+onGround = !place_free(x, y+1);
 
 // Last x/y position for death cam if player is dead
 player.lastKnownx=x;

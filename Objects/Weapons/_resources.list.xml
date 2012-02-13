@@ -6,6 +6,7 @@
   <resource name="Minigun" type="RESOURCE"/>
   <resource name="Flamethrower" type="RESOURCE"/>
   <resource name="Scattergun" type="RESOURCE"/>
+  <resource name="CWR" type="RESOURCE"/>
   <resource name="Shotgun" type="RESOURCE"/>
   <resource name="Rocketlauncher" type="RESOURCE"/>
   <resource name="Blade" type="RESOURCE"/>

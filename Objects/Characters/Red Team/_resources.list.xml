@@ -10,4 +10,5 @@
   <resource name="SoldierRed" type="RESOURCE"/>
   <resource name="PyroRed" type="RESOURCE"/>
   <resource name="ScoutRed" type="RESOURCE"/>
+  <resource name="ReisenRed" type="RESOURCE"/>
 </resources>

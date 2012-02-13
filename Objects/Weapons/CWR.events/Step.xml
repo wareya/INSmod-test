@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">if(firing != 0)
+{
+    if(firing == 9)
+    {
+        falloff = 0;
+        event_user(4);
+    }
+    else if(firing == 6 or firing == 3)
+    {
+        falloff = 1;
+        event_user(4);
+    }
+    firing -= 1;
+}
+if(owner.doublejumpUsed and !djucache)
+{
+    kickOverride = true;
+    event_user(2);
+    kickOverride = false;
+}
+djucache = owner.doublejumpUsed;
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>
